@@ -18,12 +18,12 @@ public class arrayMax {
 				Scanner scr = new Scanner(System.in);
 				array[i] = scr.nextInt();
 			}
-			int max = array[0];
+			int currentMax = array[0];
 			for (i=1;i<n;i++)
 			{
-				if(array[i]>max)
+				if(array[i]>currentMax)
 				{
-					max=array[i];
+					currentMax=array[i];
 				}
 			}
 			System.out.println("The biggest number in the array is "+ max);
