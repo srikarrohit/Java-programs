@@ -120,3 +120,12 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2015-07-21 11:39:36.469
 !MESSAGE The project description file (.project) for 'insertionSort' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2015-07-21 12:12:02.072
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-07-21 12:12:02.072
+!MESSAGE The project description file (.project) for 'HelloWorld' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-07-21 12:12:02.072
+!MESSAGE The project description file (.project) for 'insertionSort' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-07-21 12:12:02.072
+!MESSAGE The project description file (.project) for 'print' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
