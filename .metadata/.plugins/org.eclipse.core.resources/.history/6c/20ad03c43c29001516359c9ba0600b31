@@ -1,0 +1,15 @@
+
+public class print {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double x = 1.5;
+int y=3;
+boolean bool=y>x;
+System.out.println(bool);
+	}
+
+}

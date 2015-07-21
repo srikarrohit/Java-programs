@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class print {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner x;//ctrl+space gives full stmt and Ctrl+shift+o gives imports required
+	}
+
+}
