@@ -1,0 +1,31 @@
+
+public class ArrayStack implements Stack{
+	
+	public static final int CAPACITY=1024;
+	private Object S[];
+	private int N;
+	private int t=-1;
+
+	public int size() {
+		return (t+1);
+	}
+
+	public boolean isEmpty() {
+		return (t<0);
+	}
+
+	public Object top(){	
+		return S[t];
+	}
+
+	public void push(Object obj) throws StackEmptyException {
+		if(size() == N)
+			throw new StackFullException("Stack Overflow");
+		
+	}
+
+	public Object pop() throws StackEmptyException {
+		return null;
+	}
+
+}

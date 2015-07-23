@@ -49,7 +49,7 @@ public class insertionSort {
 					}
 				}
 				/*i = j-1;
-				while(i>=0 && array[i]>key)//Error using i>0
+				while(i>=0 && array[i]>key)//Error using i>0 . There started from 1 so sly.
 				{
 					array[i+1]=array[i];
 					i--;

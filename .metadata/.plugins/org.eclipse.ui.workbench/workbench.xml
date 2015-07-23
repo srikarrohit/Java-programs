@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="27" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -31,13 +31,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="arrayMax.java" partName="arrayMax.java" path="/home/srikar/workspace/Algorithms/src/arrayMax.java" title="arrayMax.java" tooltip="Algorithms/src/arrayMax.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="insertionSort.java" partName="insertionSort.java" path="/home/srikar/workspace/Algorithms/src/insertionSort.java" title="insertionSort.java" tooltip="Algorithms/src/insertionSort.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/insertionSort.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1022" selectionTopPixel="677"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="arrayMax.java" partName="arrayMax.java" path="/home/srikar/workspace/Algorithms/src/arrayMax.java" title="arrayMax.java" tooltip="Algorithms/src/arrayMax.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/arrayMax.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="26" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="61" selectionOffset="633" selectionTopPixel="14"/>
 </editor>
 </editors>
 <views>
@@ -46,9 +51,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -57,14 +59,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -88,6 +85,9 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.internal.introview" partName="Welcome">
 <viewState>
@@ -248,7 +248,7 @@
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@19891d27" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="1">
 <fastViews>
-<view id="org.eclipse.ui.internal.introview" ratio="0.3"/>
+<view id="org.eclipse.ui.internal.introview" ratio="0.21860465"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
@@ -260,7 +260,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -279,7 +279,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
@@ -291,7 +291,7 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
@@ -308,16 +308,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/HelloWorld.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/print/src/print.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/arrayMax.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/insertionSort.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/arrayMax.java"/>
 </editors>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="177" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="219" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="177" y="0"/>
-</item>
 <item historyLabel="print.java" index="1">
 <position info="not_deleted" x="25" y="7"/>
 </item>
@@ -390,8 +383,83 @@
 <item historyLabel="arrayMax.java" index="2">
 <position info="not_deleted" x="529" y="0"/>
 </item>
-<item active="true" historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="607" y="0"/>
+<item historyLabel="arrayMax.java" index="2">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="27" y="0"/>
+</item>
+<item historyLabel="arrayMax.java" index="2">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1480" y="0"/>
+</item>
+<item historyLabel="arrayMax.java" index="4">
+<position info="not_deleted" x="98" y="338"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="arrayMax.java" index="4">
+<position info="not_deleted" x="633" y="61"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="520" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="686" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1328" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="506" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1279" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1243" y="38"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1414" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1048" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1113" y="0"/>
+</item>
+<item historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1101" y="0"/>
+</item>
+<item active="true" historyLabel="insertionSort.java" index="3">
+<position info="not_deleted" x="1133" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -420,6 +488,9 @@
 <mruList>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="arrayMax.java" tooltip="Algorithms/src/arrayMax.java">
 <persistable path="/Algorithms/src/arrayMax.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="insertionSort.java" tooltip="Algorithms/src/insertionSort.java">
+<persistable path="/Algorithms/src/insertionSort.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="print.java" tooltip="print/src/print.java">
 <persistable path="/print/src/print.java"/>

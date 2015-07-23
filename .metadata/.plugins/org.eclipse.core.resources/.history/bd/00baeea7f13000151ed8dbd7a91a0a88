@@ -1,0 +1,33 @@
+
+public class ArrayStack implements Stack{
+	
+	public static final int CAPACITY=1024;
+	private Object S[];
+	private int N;
+	private int t=-1;
+
+	public int size() {
+		return (t+1);
+	}
+
+	public boolean isEmpty() {
+		return (t<0);
+	}
+
+	public Object top() throws StackEmptyException {
+		return S[t];
+	}
+
+	@Override
+	public void push(Object element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Object pop() throws StackEmptyException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
