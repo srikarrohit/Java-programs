@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
-<window height="744" maximized="true" width="1024" x="0" y="24">
+<window height="715" maximized="true" width="1018" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
 <intro standby="true"/>
 <perspectiveBar>
@@ -32,17 +32,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="insertionSort.java" partName="insertionSort.java" path="/home/srikar/workspace/Algorithms/src/insertionSort.java" title="insertionSort.java" tooltip="Algorithms/src/insertionSort.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/insertionSort.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1022" selectionTopPixel="677"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stack.java" partName="Stack.java" path="/home/srikar/workspace/Stack/src/Stack.java" title="Stack.java" tooltip="Stack/src/Stack.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Stack/src/Stack.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="235" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="arrayMax.java" partName="arrayMax.java" path="/home/srikar/workspace/Algorithms/src/arrayMax.java" title="arrayMax.java" tooltip="Algorithms/src/arrayMax.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/arrayMax.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="61" selectionOffset="633" selectionTopPixel="14"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StackEmptyException.java" partName="StackEmptyException.java" path="/home/srikar/workspace/Stack/src/StackEmptyException.java" title="StackEmptyException.java" tooltip="Stack/src/StackEmptyException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Stack/src/StackEmptyException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Node.java" partName="Node.java" path="/home/srikar/workspace/Linkedlists/src/Node.java" title="Node.java" tooltip="Linkedlists/src/Node.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Linkedlists/src/Node.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="313" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="usageofnode.java" partName="usageofnode.java" path="/home/srikar/workspace/Linkedlists/src/usageofnode.java" title="usageofnode.java" tooltip="Linkedlists/src/usageofnode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Linkedlists/src/usageofnode.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1680" selectionTopPixel="575"/>
 </editor>
 </editors>
 <views>
@@ -51,6 +61,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -61,7 +74,9 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -260,7 +275,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -279,7 +294,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
@@ -291,7 +306,7 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
@@ -305,161 +320,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/HelloWorld.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/print/src/print.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/arrayMax.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/insertionSort.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/arrayMax.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Stack/src/ArrayStack.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Linkedlists/src/Node.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Stack/src/StackFullException.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Linkedlists/src/usageofnode.java"/>
 </editors>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="25" y="7"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="486" y="0"/>
 </item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="177" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="646" y="0"/>
 </item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="25" y="7"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="796" y="0"/>
 </item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="219" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="153" y="4"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="123" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="150" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="267" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
-<position info="not_deleted" x="241" y="0"/>
-</item>
-<item historyLabel="print.java" index="1">
+<item historyLabel="ArrayStack.java" index="0">
 <position info="not_deleted" x="274" y="0"/>
 </item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="27" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="202" y="0"/>
 </item>
-<item historyLabel="arrayMax.java" index="2">
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="176" y="8"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="209" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="209" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="StackFullException.java" index="2">
+<position info="not_deleted" x="116" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="311" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="102" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
 <position/>
 </item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="198" y="0"/>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="156" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="198" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="673" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="220" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="413" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="457" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="609" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="505" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="537" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="529" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="27" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="2">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1480" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="4">
-<position info="not_deleted" x="98" y="338"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="69" y="0"/>
-</item>
-<item historyLabel="arrayMax.java" index="4">
-<position info="not_deleted" x="633" y="61"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="69" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="520" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="686" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="702" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="711" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="728" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1328" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="506" y="0"/>
-</item>
-<item historyLabel="insertionSort.java" index="3">
+<item historyLabel="usageofnode.java" index="3">
 <position/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1279" y="0"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1278" y="0"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1734" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1296" y="0"/>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1243" y="38"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1734" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1414" y="0"/>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="790" y="0"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1734" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1048" y="0"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1113" y="0"/>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="313" y="0"/>
 </item>
-<item historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1101" y="0"/>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
 </item>
-<item active="true" historyLabel="insertionSort.java" index="3">
-<position info="not_deleted" x="1133" y="0"/>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item historyLabel="Node.java" index="1">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1135" y="0"/>
+</item>
+<item historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1734" y="0"/>
+</item>
+<item active="true" historyLabel="usageofnode.java" index="3">
+<position info="not_deleted" x="1671" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -486,6 +500,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="usageofnode.java" tooltip="Linkedlists/src/usageofnode.java">
+<persistable path="/Linkedlists/src/usageofnode.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Node.java" tooltip="Linkedlists/src/Node.java">
+<persistable path="/Linkedlists/src/Node.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StackFullException.java" tooltip="Stack/src/StackFullException.java">
+<persistable path="/Stack/src/StackFullException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayStack.java" tooltip="Stack/src/ArrayStack.java">
+<persistable path="/Stack/src/ArrayStack.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StackEmptyException.java" tooltip="Stack/src/StackEmptyException.java">
+<persistable path="/Stack/src/StackEmptyException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stack.java" tooltip="Stack/src/Stack.java">
+<persistable path="/Stack/src/Stack.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="arrayMax.java" tooltip="Algorithms/src/arrayMax.java">
 <persistable path="/Algorithms/src/arrayMax.java"/>
 </file>

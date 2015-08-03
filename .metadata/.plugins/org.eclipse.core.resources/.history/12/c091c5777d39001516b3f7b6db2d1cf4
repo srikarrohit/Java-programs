@@ -1,0 +1,15 @@
+
+public class usageofnode {
+	public static void main(String[] args) {
+		Node n = new Node("hello",null);
+		System.out.println(n.getData()+","+n.getNext());
+	}
+	public static String getThird(Node list){
+		return list.getNext().getNext().getData();
+	}
+	public static void insertSecond(Node list,String s){
+		Node n1 = new Node(s,null);
+		n1.setNext(list.getNext());
+		list.setNext(n1);
+	}
+}
